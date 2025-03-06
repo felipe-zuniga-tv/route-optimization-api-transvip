@@ -1,0 +1,42 @@
+{
+  "bookings": [
+    {
+      "job_id": "12345",
+      "pax_count": 2,
+      "origin": "AMB Terminal 1",
+      "destination": {
+        "latitude": -33.4315156504583,
+        "longitude": -70.78452621008952
+      }
+    },
+    {
+      "job_id": "12346",
+      "pax_count": 2,
+      "origin": "AMB Terminal 1",
+      "destination": {
+        "latitude": -33.41911211912203,
+        "longitude": -70.5971284321036
+      }
+    },
+    {
+      "job_id": "12347",
+      "pax_count": 2,
+      "origin": "AMB Terminal 1",
+      "destination": {
+        "latitude": -33.43362718327786,
+        "longitude": -70.65767073210303
+      }
+    }
+  ],
+  "vehicles": [
+    {
+      "vehicle_number": "V001",
+      "start_location": "AMB Terminal 2",
+      "vehicle_capacity": 7
+    }
+  ],
+  "parameters": {
+    "STOP_TIME_IN_MINUTES": 2,
+    "MAX_ROUTE_TIME_IN_MINUTES": 90
+  }
+} 
